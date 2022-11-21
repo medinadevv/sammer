@@ -6,11 +6,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sammer</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="./img/logo.png">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Mulish:wght@200;300;400;500;600;700;800;900&family=Noto+Sans:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Philosopher:wght@400;700&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="./css/media.css">
+
 </head>
 <body>
 
@@ -57,7 +59,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hero-img">
+            <div class="hero-img"data-tilt>
                 <img src="./img/world.png" alt="">
             </div>
         </div>
@@ -67,7 +69,7 @@
 <section id="new">
     <div class="container">
         <div class="new">
-            <div class="new-img">
+            <div class="new-img"data-tilt>
                 <img src="./img/gruss.png" alt="img">
             </div>
             <div class="new-title">
@@ -93,7 +95,9 @@
             </a>
         </div>
         <div class="futures">
-            <div class="future">
+            <div class="future"data-aos="flip-left"
+                 data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
                 <div class="future-img">
                     <img src="./img/river.png" alt="img">
                     <div class="future-bac">
@@ -103,7 +107,9 @@
 
                 </div>
             </div>
-            <div class="future">
+            <div class="future"data-aos="flip-left"
+                 data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
                 <div class="future-img">
                     <img src="./img/mountins.png" alt="img">
                     <div class="future-bac">
@@ -113,7 +119,9 @@
 
                 </div>
             </div>
-            <div class="future">
+            <div class="future"data-aos="flip-left"
+                 data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
                 <div class="future-img">
                     <img src="./img/hous.png" alt="img">
                     <div class="future-bac">
@@ -123,7 +131,9 @@
 
                 </div>
             </div>
-            <div class="future">
+            <div class="future"data-aos="flip-left"
+                 data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
                 <div class="future-img">
                     <img src="./img/blue.png" alt="img">
                     <div class="future-bac">
@@ -150,7 +160,7 @@
                     <button>Download</button>
                 </div>
             </div>
-            <div class="sun-img">
+            <div class="sun-img"data-tilt>
                 <img src="./img/sun.png" alt="img">
             </div>
         </div>
@@ -176,9 +186,14 @@
                 <h2>Edward Newgate</h2>
                 <p>Founder Circle</p>
             </div>
-            <div class="star-img">
+            <div class="star-img"data-tilt>
                 <img src="./img/man.png" alt="img">
                 <div class="star-img-bac"></div>
+                <div class="star-icons">
+                    <a href="#" class="icon-left"><ion-icon name="chevron-back-circle-outline"></ion-icon></a>
+                    <a href="#" class="icon-right"><ion-icon name="chevron-forward-circle-outline"></ion-icon>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -193,7 +208,9 @@
             </a>
         </div>
         <div class="trends">
-            <div class="trend">
+            <div class="trend"data-aos="flip-left"
+                 data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
                 <div class="trend-img">
                     <img src="./img/ioga.png" alt="img">
                     <h1>The many benefits of <br>
@@ -204,7 +221,9 @@
                     <h2>Read more</h2>
                 </div>
             </div>
-            <div class="trend">
+            <div class="trend"data-aos="flip-left"
+                 data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
                 <div class="trend-img">
                     <img src="./img/food.png" alt="img">
                     <h1>The best Kyoto restaurant <br>
@@ -215,7 +234,9 @@
                     <h2>Read more</h2>
                 </div>
             </div>
-            <div class="trend">
+            <div class="trend"data-aos="flip-left"
+                 data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
                 <div class="trend-img">
                     <img src="./img/home.png" alt="img">
                     <h1>Skip Chichen Itza and head <br>
@@ -226,7 +247,9 @@
                     <h2>Read more</h2>
                 </div>
             </div>
-            <div class="trend">
+            <div class="trend"data-aos="flip-left"
+                 data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
                 <div class="trend-img">
                     <img src="./img/water.png" alt="img">
                     <h1>Surf’s up at these beginner <br>
@@ -289,14 +312,18 @@
         </div>
 
     </div>
-<!--    <div class="footer-icon">-->
-
-<!--    </div>-->
-</footer>
 
 
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="js/script.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 </html>
 
